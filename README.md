@@ -14,4 +14,12 @@ Annotations & assertions used:
 - `assertAll("<Note>", <Executable_lambda>)`: concise way of assertion. Benefit: all assertions will be executed despite any failures. 
 
 # Package bdd_cucumber
+Steps:
+1) Create Cucumber .feature file
+2) Run .feature file  
+![img.png](img.png)
+3) Error will tell you what to put in your .java file with @Given, @When, @Then annotations - Create java code for this.  
+![img_2.png](img_2.png)
+4) Modify the methods as necessary
+
 ***For some reason, this part is not working.. I might need to redo this part altogether.*** 
