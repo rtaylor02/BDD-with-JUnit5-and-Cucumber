@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-java@v4.5.0
         with:
           java-version: 21
+          distribution: oracle
       # Build maven project
       - name: Step 3 - Build maven
         run: mvn -B package --file pom.xml
